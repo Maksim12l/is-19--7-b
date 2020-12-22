@@ -1,0 +1,142 @@
+:root{
+    font-style: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.wrap{
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.header{
+        background-image: -moz-linear-gradient( 150deg, rgb(84,183,161) 0%, rgb(66,99,132) 100%);
+        background-image: -webkit-linear-gradient( 150deg, rgb(84,183,161) 0%, rgb(66,99,132) 100%);
+        background-image: -ms-linear-gradient( 150deg, rgb(84,183,161) 0%, rgb(66,99,132) 100%);   
+} 
+
+nav{
+    width:960;
+    margin: 0 auto;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    margin-top: -30px;
+}
+
+.nav> .nav__item > .nav__link {
+float: left;
+color: aliceblue;
+display: block;
+height: 30px;
+padding: 0 10px;
+text-decoration: none;
+position: relative;
+left: 520px;
+font-family: 'Anton', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.logo{
+
+    margin-top: 20px;
+
+}
+
+.book{
+    position: relative;
+    left: 100px;
+    top: -5px;
+    margin-top: 40px;
+}
+
+.block{
+    position: relative;
+    left: 200px;
+    top: -400px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.block-book__title{
+    position: relative;
+    right:100px;
+    bottom: 250px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    padding-right:120px ;
+}
+
+.block-book__subtitle{
+position: relative;
+bottom: 240px;
+right: 80px;
+font-size: x-small;
+color: rgb(107, 197, 107);
+}
+
+.block-book__author{
+    position: relative;
+    right: 106px;
+    top: 50px;
+    font-size: 9pt;
+    color: rgb(107, 197, 107);
+}
+
+.incom_text{
+    position: relative;
+    bottom: 444px;
+    left: 200px;
+    font-size: 11pt;
+}
+
+.Logo__text{
+    position: relative;
+    bottom: 430px;
+    left: 200px;
+    font-size: 26pt;
+}
+
+.dop_text{
+    position: relative;
+    left: 200px;
+    bottom: 423px;
+    color: rgb(107, 197, 107);
+}
+
+.button{
+    position: relative;
+    left: 200px;
+    bottom: 120px;
+}
+
+.button__text{
+    position: relative;
+    left: 230px;
+    bottom: 163px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.end{
+    position: relative;
+    left: 200px;
+    bottom: 120px;
+    font-size: 9pt;
+}
